@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Interactive map | The Guardian </title>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.min.css" />	
+		<style type="text/css">
+			body{
+				margin:0px;
+				padding:0px;
+				font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+				font-size:11px;
+
+			}
+
+			#outer-wrapper{
+				width: 460px;
+				position: relative;
+			}
+
+			#aust-map {
+				width:460px;
+				height:460px;
+			}
+
+			.state {
+				fill:#FFF;
+				fill-opacity: 1;
+				stroke: #bfbfbf;
+				/*stroke-width:.5px;*/
+
+			}
+
+			.graticule {
+				fill: none;
+				stroke: #efefef;
+				stroke-width: .5px;
+				stroke-opacity:1;
+			}
+
+
+			.circle {
+				fill-opacity:.4;
+				stroke-opacity:.5;
+				stroke-width:.5px;
+				stroke:grey;
+			}
+
+			.scallop {
+
+				fill:#7fc97f;
+			}
+
+			.potato-scallop {
+
+				fill:#beaed4;
+			}
+
+			.potato-cake {
+
+				fill:#fdc086;
+			}
+
+			.potato-fritter {
+				fill:#ffff99;
+			}
+
+			.circle:hover {
+
+      		stroke: #000;
+      		stroke-width:2px;
+   			 } 
+
+
+		</style>
+
+
+	</head>
+	<body>
+	
+
+		<div id="outer-wrapper">
+			
+			<div id="aust-map">
+
+			</div>	
+		
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/d3.min.js"></script>
+	    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+
+		
+		<script type="text/javascript">
+
+
+			var mapData = [];
+			var austMap;
+			var projection,path,graticule;
+			var mapWidth=460,mapHeight=400;
+			var maxRadius=14,radiusMultiplier;
+			var keyHeight=60;
+
+
+			projection = d3.geo.mercator()
+				.rotate([-132.8,25.776])
+				.scale(600)
+				.clipExtent([[-1, -1], [mapWidth + 1, mapHeight + 1]])
+				.translate([mapWidth/2,mapHeight/2])
+
+			path = d3.geo.path()
+				.projection(projection);
+
+			austMap = d3.select("#aust-map").append("svg")
+				.attr("width", mapWidth)
+				.attr("height", mapHeight);
+
+
+			d3.json("data/aus-states.geojson", function(error, data) {
+
+				austMap.selectAll(".state")
+						.data(data.features)
+						.enter().append("path")
+							.attr("class", "state")
+							.attr("d", path)
+
+
+					d3.csv("data/scallops-count.csv", function(error, data) {
+
+						maxData = d3.max(data, function(a){	return +a.count});
+						minData = d3.min(data, function(a){	return +a.count});
+						meanData = d3.mean(data, function(a){ return +a.count});
+
+						radiusMultiplier=maxRadius/Math.sqrt(maxData);	
+
+						
+
+
+						austMap.selectAll(".circle")
+								.data(data)
+								.enter().append("svg:circle")
+									.attr("class",function(d){ return d['word'].replace(" ", "-") + " circle"})
+									.attr("cx",function(d){ return projection([d.lon, d.lat])[0]; })
+									.attr("cy",function(d){ return projection([d.lon, d.lat])[1]; })
+									.attr('r',function(d){ return Math.sqrt(d.count)*radiusMultiplier })
+									.attr("title", function(d){ return d['location-name']})
+									.attr("data-count", function(d){ return d.count})
+									.attr("data-word", function(d){ return d['word']});
+
+
+						$(".circle").tooltip({
+							track: true,	
+					      content: function() {
+					        var element = $( this );
+							var dCount = element.attr('data-count');
+							var dWord = element.attr('data-word');
+							var dTitle = element.attr('title');
+					        return "<h3>" + dTitle + "</h3>Word: " + dWord + "<br>Count: " +  dCount;
+					      }
+					    });
+			
+				});			
+		
+			});
+
+
+
+			
+
+
+
+
+
+		</script>
+	</body>
+</html>
