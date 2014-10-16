@@ -181,9 +181,33 @@
 								    .attr("x", 20)
 								    .attr("y", i*20 + 14)
 								    .attr("class", "keyText")
+								    .attr("data-category", d.replace(" ", "-"))
+								    .on("click", filterCat) 
 								    .text(d);
 
-							});			
+							});	
+
+							function filterCat() {
+								var catID = d3.select(this).attr("data-category");
+								console.log(catID);
+
+								var currCircles = d3.selectAll(".circle."+catID);
+
+								if (currCircles.style("opacity") > 0) {
+						        
+						        currCircles.transition()
+						              .duration(300)
+						              .style("opacity", 0)
+						        }
+
+						        else if (currCircles.style("opacity") == 0) {
+
+						         currCircles.transition()
+						              .duration(300)
+						              .style("opacity", 1)
+						        }
+
+							};		
 
 							austMap.selectAll(".circle")
 									.data(data)
