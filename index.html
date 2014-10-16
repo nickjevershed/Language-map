@@ -116,8 +116,8 @@
 
 				projection = d3.geo.mercator()
 					.rotate([-132.8,25.776])
-					.scale(width)
-					.translate([width/2,height/2])
+					.scale(width*1.4)
+					.translate([width/6,height/6])
 
 				path = d3.geo.path()
 					.projection(projection);
