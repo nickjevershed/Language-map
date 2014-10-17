@@ -1,177 +1,1 @@
-location-name,word,state,lat,lon,location-code,code,count
-Adelaide,(drinking) tap,SA,-34.92862120000001,138.59995940000002,1,1,1
-Adelaide,drinking fountain,SA,-34.92862120000001,138.59995940000002,3,3,3
-Albany,drinking fountain,WA,-35.023822700000004,117.88472859999999,1,1,1
-Albury,bubbler,NSW,-36.0807785,146.91646930000002,3,3,3
-Allansford,drinking fountain,VIC,-38.385468100000004,142.5908483,2,2,2
-Ardlethan,bubbler,NSW,-34.3570342,146.9034906,2,2,2
-Ballarat,(drinking) tap,VIC,-37.5636495,143.8671868,1,1,1
-Balranald,bubbler,NSW,-34.6394729,143.56298030000002,2,2,2
-Barellan,bubbler,NSW,-34.2847539,146.5722145,1,1,1
-Barmedman,bubbler,NSW,-34.14281079999999,147.3863825,1,1,1
-Batemans Bay,drinking fountain,NSW,-35.708419899999996,150.17761330000002,2,2,2
-Bathurst,bubbler,NSW,-33.4176529,149.5810314,2,2,2
-Bathurst,drinking fountain,NSW,-33.4176529,149.5810314,1,1,1
-Bega,bubbler,NSW,-36.6742276,149.8429277,1,1,1
-Benalla,bubble tap,VIC,-36.5514956,145.98170190000002,1,1,1
-Bendigo,(drinking) tap,VIC,-36.7587112,144.2837459,1,1,1
-Bendigo,bubbler,VIC,-36.7587112,144.2837459,1,1,1
-Bendigo,drinking fountain,VIC,-36.7587112,144.2837459,2,2,2
-Bendoc,drinking fountain,VIC,-37.1459017,148.8750406,1,1,1
-Bermagui,bubbler,NSW,-36.4292545,150.07603500000002,2,2,2
-Berri,drinking fountain,SA,-34.2852369,140.6022954,1,1,1
-Birchip,drinking fountain,VIC,-35.980698,142.9173414,1,1,1
-Bombala,bubbler,NSW,-36.912262299999995,149.2382362,1,1,1
-Bombala,drinking fountain,NSW,-36.912262299999995,149.2382362,1,1,1
-Booligal,bubbler,NSW,-33.8695883,144.88467480000003,1,1,1
-Bordertown,(drinking) tap,SA,-36.3111665,140.7733804,1,1,1
-Bordertown,bubbler,SA,-36.3111665,140.7733804,1,1,1
-Braidwood,bubbler,NSW,-35.4459966,149.79904380000002,1,1,1
-Brisbane,drinking fountain,QLD,-27.4710107,153.0234489,2,2,2
-Broken Hill,bubbler,NSW,-31.9558583,141.4651361,1,1,1
-Busselton,drinking fountain,WA,-33.6499446,115.3446115,1,1,1
-Camperdown,drinking fountain,VIC,-38.233931899999995,143.1496795,1,1,1
-Canberra,bubbler,ACT,-35.282,149.12868400000002,26,26,26
-Cann River,drinking fountain,VIC,-37.565214700000006,149.1513706,1,1,1
-Caragabal,bubbler,NSW,-33.843958799999996,147.7401953,1,1,1
-Caragabal,drinking fountain,NSW,-33.843958799999996,147.7401953,1,1,1
-Cassilis,bubbler,NSW,-32.0063935,149.9788361,1,1,1
-Casterton,drinking fountain,VIC,-37.584567799999995,141.40523290000002,1,1,1
-Cessnock,bubbler,NSW,-32.8345782,151.3564619,3,3,3
-Coffs Harbour,bubbler,NSW,-30.296312100000005,153.11567219999998,1,1,1
-Colac,drinking fountain,VIC,-38.3400445,143.5844382,1,1,1
-Coleambally,drinking fountain,NSW,-34.7970145,145.8793249,2,2,2
-Condobolin,bubbler,NSW,-33.0889514,147.1510598,2,2,2
-Coobowie,drinking fountain,SA,-35.0441306,137.7315702,1,1,1
-Coolamon,bubbler,NSW,-34.8173634,147.1979156,1,1,1
-Cooma,bubbler,NSW,-36.2352845,149.1252802,2,2,2
-Corryong,(drinking) tap,VIC,-36.1960059,147.9039936,1,1,1
-Corryong,drinking fountain,VIC,-36.1960059,147.9039936,1,1,1
-Culcairn,bubbler,NSW,-35.6676244,147.0380914,2,2,2
-Curlwaa,bubbler,NSW,-34.098567200000005,141.9679627,1,1,1
-Dalby,drinking fountain,QLD,-27.183286300000002,151.2637479,2,2,2
-Dareton,bubbler,NSW,-34.108367,142.13815780000002,1,1,1
-Dareton,drinking fountain,NSW,-34.108367,142.13815780000002,1,1,1
-Darwin,(drinking) tap,NT,-12.4628271,130.84177720000002,1,1,1
-Delegate,drinking fountain,NSW,-37.0438422,148.9416796,1,1,1
-Deniliquin,bubbler,NSW,-35.523140000000005,144.9823858,3,3,3
-Echuca,bubbler,VIC,-36.1277236,144.74949730000003,1,1,1
-Echuca,drinking fountain,VIC,-36.1277236,144.74949730000003,2,2,2
-Eden,bubbler,NSW,-37.0637713,149.9020872,10,10,10
-Forbes,bubbler,NSW,-33.3853703,148.0080124,1,1,1
-Geelong,(drinking) tap,VIC,-38.15,144.35,2,2,2
-Glen Innes,drinking fountain,NSW,-29.737663800000004,151.7402506,1,1,1
-Gloucester,bubbler,NSW,-32.0076329,151.9582565,1,1,1
-Goolgowi,bubbler,NSW,-33.9805417,145.7120997,1,1,1
-Goulburn,bubbler,NSW,-34.7548346,149.7186486,1,1,1
-Grafton,drinking fountain,NSW,-29.691122600000003,152.9331993,1,1,1
-Grenfell,bubbler,NSW,-33.8937763,148.1614604,2,2,2
-Griffith,bubbler,NSW,-34.2872974,146.04583689999998,4,4,4
-Grong Grong,bubbler,NSW,-34.738855,146.78461719999999,1,1,1
-Gundagai,drinking fountain,NSW,-35.065339,148.1071728,1,1,1
-Gympie,drinking fountain,QLD,-26.1902977,152.6653914,2,2,2
-Hay,bubbler,NSW,-34.509313,144.8435657,1,1,1
-Hay,drinking fountain,NSW,-34.509313,144.8435657,1,1,1
-Henty,bubbler,NSW,-35.5170955,147.03422980000002,2,2,2
-Henty,drinking fountain,NSW,-35.5170955,147.03422980000002,1,1,1
-Hillston,bubbler,NSW,-33.4856919,145.5316166,1,1,1
-Hillston,drinking fountain,NSW,-33.4856919,145.5316166,1,1,1
-Hobart,drinking fountain,TAS,-42.881903,147.323814,3,3,3
-Holbrook,bubbler,NSW,-35.7268382,147.31163600000002,1,1,1
-Holbrook,drinking fountain,NSW,-35.7268382,147.31163600000002,1,1,1
-Hopetoun,drinking fountain,VIC,-35.7277152,142.3635906,2,2,2
-Huskisson,bubbler,NSW,-35.0388078,150.67075269999998,1,1,1
-Ipswich,drinking fountain,QLD,-27.6140934,152.7584716,2,2,2
-Ivanhoe,bubbler,NSW,-32.8997751,144.3004456,1,1,1
-Jeparit,bubble tap,VIC,-36.140915899999996,141.9888636,1,1,1
-Jerilderie,bubbler,NSW,-35.3567745,145.73094419999998,1,1,1
-Jindabyne,bubbler,NSW,-36.41479,148.6110247,1,1,1
-Junee,bubbler,NSW,-34.8703676,147.5848314,2,2,2
-Kangaroo Valley,bubbler,NSW,-34.7341224,150.52587649999998,1,1,1
-Kilmore,(drinking) tap,VIC,-37.2928685,144.95125819999998,1,1,1
-Kingston-on-Murray,drinking fountain,SA,-34.223417700000006,140.3473068,1,1,1
-Kybybolite,drinking fountain,SA,-36.871444399999994,140.9238129,1,1,1
-Lake Cargelligo,bubbler,NSW,-33.2983593,146.3739716,1,1,1
-Lakes Entrance,bubble tap,VIC,-37.8795844,147.99160469999998,1,1,1
-Lameroo,drinking fountain,SA,-35.328886700000005,140.5195645,3,3,3
-Leeton,drinking fountain,NSW,-34.551393299999994,146.4066521,1,1,1
-Lismore ,bubbler,NSW,-28.8279803,153.2857165,3,3,3
-Lithgow,bubbler,NSW,-33.4809335,150.1574085,2,2,2
-Loxton,drinking fountain,SA,-34.450387299999996,140.57027419999997,1,1,1
-Melbourne,(drinking) tap,VIC,-37.814107,144.96328,1,1,1
-Melbourne,drinking fountain,VIC,-37.814107,144.96328,2,2,2
-Merimbula,bubbler,NSW,-36.8880112,149.90632769999996,1,1,1
-Merimbula,drinking fountain,NSW,-36.8880112,149.90632769999996,1,1,1
-Mildura,drinking fountain,VIC,-34.2063006,142.1358321,2,2,2
-Moe,(drinking) tap,VIC,-38.1747552,146.2626215,1,1,1
-Moe,drinking fountain,VIC,-38.1747552,146.2626215,2,2,2
-Molong,drinking fountain,NSW,-33.0922899,148.8712315,1,1,1
-Moruya,drinking fountain,NSW,-35.909318799999994,150.082377,1,1,1
-Mount Barker,drinking fountain,WA,-34.6277701,117.66206890000001,1,1,1
-Mulbring,bubbler,NSW,-32.9028391,151.48237619999998,1,1,1
-Mullumbimby,drinking fountain,NSW,-28.553384700000002,153.4995821,1,1,1
-Mulwala,bubbler,NSW,-35.987951,146.006691,1,1,1
-Murrayville,drinking fountain,VIC,-35.262382200000005,141.18334219999997,1,1,1
-Myrtleford,drinking fountain,VIC,-36.5616777,146.7260119,1,1,1
-Naracoorte,drinking fountain,SA,-36.9550218,140.7430918,1,1,1
-Narooma,bubbler,NSW,-36.2182385,150.13230019999997,2,2,2
-Narrabri,bubbler,NSW,-30.3250572,149.78298080000002,1,1,1
-Narrandera,bubbler,NSW,-34.747901399999996,146.5503637,2,2,2
-Newcastle,bubbler,NSW,-32.926689,151.7789205,1,1,1
-Nhill,bubble tap,VIC,-36.332471999999996,141.6494937,1,1,1
-Nimmitabel,bubbler,NSW,-36.5123017,149.28439540000002,1,1,1
-Norwell,drinking fountain,QLD,-27.786766399999998,153.3150421,1,1,1
-Nowra,bubbler,NSW,-34.8746265,150.6029082,2,2,2
-Oberon,bubbler,NSW,-33.704174,149.8574075,1,1,1
-Omeo,(drinking) tap,VIC,-37.099466799999995,147.5933185,1,1,1
-Ouyen,(drinking) tap,VIC,-35.0706191,142.3149438,2,2,2
-Ouyen,bubbler,VIC,-35.0706191,142.3149438,1,1,1
-Pambula,bubbler,NSW,-36.9295659,149.8745515,1,1,1
-Parkes,bubbler,NSW,-33.1378642,148.1748388,3,3,3
-Penola,(drinking) tap,SA,-37.3789874,140.8407186,1,1,1
-Penola,drinking fountain,SA,-37.3789874,140.8407186,3,3,3
-Perth,(drinking) tap,WA,-31.9530044,115.85746929999999,1,1,1
-Perth,drinking fountain,WA,-31.9530044,115.85746929999999,4,4,4
-Pinnaroo,drinking fountain,SA,-35.2604045,140.9084344,3,3,3
-Port Lincoln,drinking fountain,SA,-34.7195321,135.8574623,2,2,2
-Quandialla,bubbler,NSW,-34.009552500000005,147.7924726,1,1,1
-Queanbeyan,bubbler,NSW,-35.3549,149.2312095,2,2,2
-Quirindi,bubbler,NSW,-31.507798600000005,150.680106,1,1,1
-Rankins Springs,bubbler,NSW,-33.8415907,146.26183369999998,1,1,1
-Redbank Plains,drinking fountain,QLD,-27.64667,152.86918630000002,1,1,1
-Rochester,drinking fountain,VIC,-36.36187329999999,144.69939540000001,1,1,1
-Rockhampton,drinking fountain,QLD,-23.3779152,150.51010259999998,2,2,2
-Sheffield,drinking fountain,TAS,-41.3821709,146.3247692,2,2,2
-Sydney,bubbler,NSW,-33.8674869,151.20699019999998,14,14,14
-Sydney,drinking fountain,NSW,-33.8674869,151.20699019999998,1,1,1
-Tabbita,bubbler,NSW,-34.1037422,145.84579250000002,1,1,1
-Tabbita,drinking fountain,NSW,-34.1037422,145.84579250000002,1,1,1
-Tallangatta,(drinking) tap,VIC,-36.2166539,147.17815119999997,1,1,1
-Tamworth,bubbler,NSW,-31.1063157,150.9307341,1,1,1
-Taree,bubbler,NSW,-31.9115673,152.460695,1,1,1
-Tathra,bubbler,NSW,-36.7286521,149.98704909999998,2,2,2
-Temora,bubbler,NSW,-34.4469495,147.53376369999998,2,2,2
-The Rock,bubbler,NSW,-35.2685446,147.1147194,2,2,2
-Thirlmere,bubbler,NSW,-34.20396289999999,150.5707408,2,2,2
-Toowoomba,drinking fountain,QLD,-27.564329999999998,151.95398740000002,2,2,2
-Tullibigeal,bubbler,NSW,-33.4212018,146.7274614,1,1,1
-Tumbarumba,bubbler,NSW,-35.7772429,148.0113753,2,2,2
-Tyrendarra,bubble tap,VIC,-38.2184054,141.78114140000002,1,1,1
-Uarbry,bubbler,NSW,-32.0472601,149.76472980000003,2,2,2
-Underbool,drinking fountain,VIC,-35.169652299999996,141.80761619999998,2,2,2
-Wagga Wagga,bubbler,NSW,-35.1250948,147.349649,1,1,1
-Walla Walla,bubbler,NSW,-35.7625701,146.90164740000003,1,1,1
-Warooka,drinking fountain,SA,-34.9905757,137.4010283,1,1,1
-Warwick,drinking fountain,QLD,-28.214373300000002,152.0351449,1,1,1
-Weering,drinking fountain,VIC,-38.0908331,143.6944685,1,1,1
-Weethalle,bubbler,NSW,-33.875718,146.6196632,1,1,1
-Wellington,bubbler,NSW,-32.555618599999995,148.9427754,1,1,1
-Wentworth,bubbler,NSW,-34.1064847,141.9221664,1,1,1
-Wentworth,drinking fountain,NSW,-34.1064847,141.9221664,1,1,1
-Werris Creek,bubbler,NSW,-31.349085700000003,150.6471759,1,1,1
-West Wyalong,bubbler,NSW,-33.9235028,147.2052839,2,2,2
-West Wyalong,drinking fountain,NSW,-33.9235028,147.2052839,1,1,1
-Wodonga,drinking fountain,VIC,-36.122487,146.8878851,2,2,2
-Wollongong,bubbler,NSW,-34.425072799999995,150.8931494,2,2,2
-Yass,bubbler,NSW,-34.8424907,148.91161110000002,1,1,1
-Yenda,bubbler,NSW,-34.2501802,146.19853759999998,1,1,1
+location-name,word,state,lat,lon,countAdelaide,(drinking) tap,SA,-34.9286212,138.5999594,1Adelaide,drinking fountain,SA,-34.9286212,138.5999594,3Albany,drinking fountain,WA,-35.0238227,117.8847286,1Albury,bubbler,NSW,-36.0807785,146.9164693,3Allansford,drinking fountain,VIC,-38.3854681,142.5908483,2Ardlethan,bubbler,NSW,-34.3570342,146.9034906,2Ballarat,(drinking) tap,VIC,-37.5636495,143.8671868,1Balranald,bubbler,NSW,-34.6394729,143.5629803,2Barellan,bubbler,NSW,-34.2847539,146.5722145,1Barmedman,bubbler,NSW,-34.1428108,147.3863825,1Batemans Bay,drinking fountain,NSW,-35.7084199,150.1776133,2Bathurst,bubbler,NSW,-33.4176529,149.5810314,2Bathurst,drinking fountain,NSW,-33.4176529,149.5810314,1Bega,bubbler,NSW,-36.6742276,149.8429277,1Benalla,bubble tap,VIC,-36.5514956,145.9817019,1Bendigo,(drinking) tap,VIC,-36.7587112,144.2837459,1Bendigo,bubbler,VIC,-36.7587112,144.2837459,1Bendigo,drinking fountain,VIC,-36.7587112,144.2837459,2Bendoc,drinking fountain,VIC,-37.1459017,148.8750406,1Bermagui,bubbler,NSW,-36.4292545,150.076035,2Berri,drinking fountain,SA,-34.2852369,140.6022954,1Birchip,drinking fountain,VIC,-35.980698,142.9173414,1Bombala,bubbler,NSW,-36.9122623,149.2382362,1Bombala,drinking fountain,NSW,-36.9122623,149.2382362,1Booligal,bubbler,NSW,-33.8695883,144.8846748,1Bordertown,(drinking) tap,SA,-36.3111665,140.7733804,1Bordertown,bubbler,SA,-36.3111665,140.7733804,1Braidwood,bubbler,NSW,-35.4459966,149.7990438,1Brisbane,drinking fountain,QLD,-27.4710107,153.0234489,2Broken Hill,bubbler,NSW,-31.9558583,141.4651361,1Busselton,drinking fountain,WA,-33.6499446,115.3446115,1Camperdown,drinking fountain,VIC,-38.2339319,143.1496795,1Canberra,bubbler,ACT,-35.282,149.128684,26Cann River,drinking fountain,VIC,-37.5652147,149.1513706,1Caragabal,bubbler,NSW,-33.8439588,147.7401953,1Caragabal,drinking fountain,NSW,-33.8439588,147.7401953,1Cassilis,bubbler,NSW,-32.0063935,149.9788361,1Casterton,drinking fountain,VIC,-37.5845678,141.4052329,1Cessnock,bubbler,NSW,-32.8345782,151.3564619,3Coffs Harbour,bubbler,NSW,-30.2963121,153.1156722,1Colac,drinking fountain,VIC,-38.3400445,143.5844382,1Coleambally,drinking fountain,NSW,-34.7970145,145.8793249,2Condobolin,bubbler,NSW,-33.0889514,147.1510598,2Coobowie,drinking fountain,SA,-35.0441306,137.7315702,1Coolamon,bubbler,NSW,-34.8173634,147.1979156,1Cooma,bubbler,NSW,-36.2352845,149.1252802,2Corryong,(drinking) tap,VIC,-36.1960059,147.9039936,1Corryong,drinking fountain,VIC,-36.1960059,147.9039936,1Culcairn,bubbler,NSW,-35.6676244,147.0380914,2Curlwaa,bubbler,NSW,-34.0985672,141.9679627,1Dalby,drinking fountain,QLD,-27.1832863,151.2637479,2Dareton,bubbler,NSW,-34.108367,142.1381578,1Dareton,drinking fountain,NSW,-34.108367,142.1381578,1Darwin,(drinking) tap,NT,-12.4628271,130.8417772,1Delegate,drinking fountain,NSW,-37.0438422,148.9416796,1Deniliquin,bubbler,NSW,-35.52314,144.9823858,3Echuca,bubbler,VIC,-36.1277236,144.7494973,1Echuca,drinking fountain,VIC,-36.1277236,144.7494973,2Eden,bubbler,NSW,-37.0637713,149.9020872,10Forbes,bubbler,NSW,-33.3853703,148.0080124,1Geelong,(drinking) tap,VIC,-38.15,144.35,2Glen Innes,drinking fountain,NSW,-29.7376638,151.7402506,1Gloucester,bubbler,NSW,-32.0076329,151.9582565,1Goolgowi,bubbler,NSW,-33.9805417,145.7120997,1Goulburn,bubbler,NSW,-34.7548346,149.7186486,1Grafton,drinking fountain,NSW,-29.6911226,152.9331993,1Grenfell,bubbler,NSW,-33.8937763,148.1614604,2Griffith,bubbler,NSW,-34.2872974,146.0458369,4Grong Grong,bubbler,NSW,-34.738855,146.7846172,1Gundagai,drinking fountain,NSW,-35.065339,148.1071728,1Gympie,drinking fountain,QLD,-26.1902977,152.6653914,2Hay,bubbler,NSW,-34.509313,144.8435657,1Hay,drinking fountain,NSW,-34.509313,144.8435657,1Henty,bubbler,NSW,-35.5170955,147.0342298,2Henty,drinking fountain,NSW,-35.5170955,147.0342298,1Hillston,bubbler,NSW,-33.4856919,145.5316166,1Hillston,drinking fountain,NSW,-33.4856919,145.5316166,1Hobart,drinking fountain,TAS,-42.881903,147.323814,3Holbrook,bubbler,NSW,-35.7268382,147.311636,1Holbrook,drinking fountain,NSW,-35.7268382,147.311636,1Hopetoun,drinking fountain,VIC,-35.7277152,142.3635906,2Huskisson,bubbler,NSW,-35.0388078,150.6707527,1Ipswich,drinking fountain,QLD,-27.6140934,152.7584716,2Ivanhoe,bubbler,NSW,-32.8997751,144.3004456,1Jeparit,bubble tap,VIC,-36.1409159,141.9888636,1Jerilderie,bubbler,NSW,-35.3567745,145.7309442,1Jindabyne,bubbler,NSW,-36.41479,148.6110247,1Junee,bubbler,NSW,-34.8703676,147.5848314,2Kangaroo Valley,bubbler,NSW,-34.7341224,150.5258765,1Kilmore,(drinking) tap,VIC,-37.2928685,144.9512582,1Kingston-on-Murray,drinking fountain,SA,-34.2234177,140.3473068,1Kybybolite,drinking fountain,SA,-36.8714444,140.9238129,1Lake Cargelligo,bubbler,NSW,-33.2983593,146.3739716,1Lakes Entrance,bubble tap,VIC,-37.8795844,147.9916047,1Lameroo,drinking fountain,SA,-35.3288867,140.5195645,3Leeton,drinking fountain,NSW,-34.5513933,146.4066521,1Lismore ,bubbler,NSW,-28.8279803,153.2857165,3Lithgow,bubbler,NSW,-33.4809335,150.1574085,2Loxton,drinking fountain,SA,-34.4503873,140.5702742,1Melbourne,(drinking) tap,VIC,-37.814107,144.96328,1Melbourne,drinking fountain,VIC,-37.814107,144.96328,2Merimbula,bubbler,NSW,-36.8880112,149.9063277,1Merimbula,drinking fountain,NSW,-36.8880112,149.9063277,1Mildura,drinking fountain,VIC,-34.2063006,142.1358321,2Moe,(drinking) tap,VIC,-38.1747552,146.2626215,1Moe,drinking fountain,VIC,-38.1747552,146.2626215,2Molong,drinking fountain,NSW,-33.0922899,148.8712315,1Moruya,drinking fountain,NSW,-35.9093188,150.082377,1Mount Barker,drinking fountain,WA,-34.6277701,117.6620689,1Mulbring,bubbler,NSW,-32.9028391,151.4823762,1Mullumbimby,drinking fountain,NSW,-28.5533847,153.4995821,1Mulwala,bubbler,NSW,-35.987951,146.006691,1Murrayville,drinking fountain,VIC,-35.2623822,141.1833422,1Myrtleford,drinking fountain,VIC,-36.5616777,146.7260119,1Naracoorte,drinking fountain,SA,-36.9550218,140.7430918,1Narooma,bubbler,NSW,-36.2182385,150.1323002,2Narrabri,bubbler,NSW,-30.3250572,149.7829808,1Narrandera,bubbler,NSW,-34.7479014,146.5503637,2Newcastle,bubbler,NSW,-32.926689,151.7789205,1Nhill,bubble tap,VIC,-36.332472,141.6494937,1Nimmitabel,bubbler,NSW,-36.5123017,149.2843954,1Norwell,drinking fountain,QLD,-27.7867664,153.3150421,1Nowra,bubbler,NSW,-34.8746265,150.6029082,2Oberon,bubbler,NSW,-33.704174,149.8574075,1Omeo,(drinking) tap,VIC,-37.0994668,147.5933185,1Ouyen,(drinking) tap,VIC,-35.0706191,142.3149438,2Ouyen,bubbler,VIC,-35.0706191,142.3149438,1Pambula,bubbler,NSW,-36.9295659,149.8745515,1Parkes,bubbler,NSW,-33.1378642,148.1748388,3Penola,(drinking) tap,SA,-37.3789874,140.8407186,1Penola,drinking fountain,SA,-37.3789874,140.8407186,3Perth,(drinking) tap,WA,-31.9530044,115.8574693,1Perth,drinking fountain,WA,-31.9530044,115.8574693,4Pinnaroo,drinking fountain,SA,-35.2604045,140.9084344,3Port Lincoln,drinking fountain,SA,-34.7195321,135.8574623,2Quandialla,bubbler,NSW,-34.0095525,147.7924726,1Queanbeyan,bubbler,NSW,-35.3549,149.2312095,2Quirindi,bubbler,NSW,-31.5077986,150.680106,1Rankins Springs,bubbler,NSW,-33.8415907,146.2618337,1Redbank Plains,drinking fountain,QLD,-27.64667,152.8691863,1Rochester,drinking fountain,VIC,-36.3618733,144.6993954,1Rockhampton,drinking fountain,QLD,-23.3779152,150.5101026,2Sheffield,drinking fountain,TAS,-41.3821709,146.3247692,2Sydney,bubbler,NSW,-33.8674869,151.2069902,14Sydney,drinking fountain,NSW,-33.8674869,151.2069902,1Tabbita,bubbler,NSW,-34.1037422,145.8457925,1Tabbita,drinking fountain,NSW,-34.1037422,145.8457925,1Tallangatta,(drinking) tap,VIC,-36.2166539,147.1781512,1Tamworth,bubbler,NSW,-31.1063157,150.9307341,1Taree,bubbler,NSW,-31.9115673,152.460695,1Tathra,bubbler,NSW,-36.7286521,149.9870491,2Temora,bubbler,NSW,-34.4469495,147.5337637,2The Rock,bubbler,NSW,-35.2685446,147.1147194,2Thirlmere,bubbler,NSW,-34.2039629,150.5707408,2Toowoomba,drinking fountain,QLD,-27.56433,151.9539874,2Tullibigeal,bubbler,NSW,-33.4212018,146.7274614,1Tumbarumba,bubbler,NSW,-35.7772429,148.0113753,2Tyrendarra,bubble tap,VIC,-38.2184054,141.7811414,1Uarbry,bubbler,NSW,-32.0472601,149.7647298,2Underbool,drinking fountain,VIC,-35.1696523,141.8076162,2Wagga Wagga,bubbler,NSW,-35.1250948,147.349649,1Walla Walla,bubbler,NSW,-35.7625701,146.9016474,1Warooka,drinking fountain,SA,-34.9905757,137.4010283,1Warwick,drinking fountain,QLD,-28.2143733,152.0351449,1Weering,drinking fountain,VIC,-38.0908331,143.6944685,1Weethalle,bubbler,NSW,-33.875718,146.6196632,1Wellington,bubbler,NSW,-32.5556186,148.9427754,1Wentworth,bubbler,NSW,-34.1064847,141.9221664,1Wentworth,drinking fountain,NSW,-34.1064847,141.9221664,1Werris Creek,bubbler,NSW,-31.3490857,150.6471759,1West Wyalong,bubbler,NSW,-33.9235028,147.2052839,2West Wyalong,drinking fountain,NSW,-33.9235028,147.2052839,1Wodonga,drinking fountain,VIC,-36.122487,146.8878851,2Wollongong,bubbler,NSW,-34.4250728,150.8931494,2Yass,bubbler,NSW,-34.8424907,148.9116111,1Yenda,bubbler,NSW,-34.2501802,146.1985376,1
