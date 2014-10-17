@@ -246,6 +246,8 @@
 								    .on("click", filterCat) 
 								    .text(d);
 
+
+
 							});	
 
 							function filterCat() {
@@ -299,7 +301,12 @@
 								    .attr("class", "keyText")
 								    .attr("id", "mapSwitcher")
 								    .on("click", zoomMap) 
-								    .text("Show WA & NT");			
+								    .text("Show WA & NT");
+
+							austMap.append("text")
+								    .attr("x", 5)
+								    .attr("y", height-20)
+								    .text("Not shown: Usage of suitcase, which is Australia-wide");	    			
 
 
 							$(".circle").tooltip({
