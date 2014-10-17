@@ -71,6 +71,12 @@
 
    			}  
 
+   			.graticule {
+				fill: none;
+				stroke: #efefef;
+				stroke-width: .5px;
+				stroke-opacity:1;
+			}
 
 		</style>
 
@@ -103,17 +109,19 @@
 			//Get window width
 
 			var getW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-			var getH = getW/1.7;
+			var getH = getW*0.581;
 
 			//Smaller graph for smaller screens
 
 			if (getW > 860) {
 				getW = 860;
+				getH = getW*0.581;
 			}
 
 			function drawMap() {
 
-				var austMap,mapKey;
+				var austMap,mapKey,graticule;
+				var mapState = 'normal';
 				var projection,path,graticule;
 
 				d3.select("#slangMap").remove();
@@ -128,25 +136,65 @@
 				var colours = ['#7fc97f','#beaed4','#fdc086','#386cb0','#f0027f'];
 
 				projection = d3.geo.mercator()
-					.rotate([-132.8,25.776])
-					.scale(width*1.4)
-					.translate([width/6,height/6])
+					.center([135,-25.0])
+					.scale(width*1.2)
+					.translate([width/4,height/6])
 
 				path = d3.geo.path()
 					.projection(projection);
 
+				graticule = d3.geo.graticule();		
+
+				var zoom = d3.behavior.zoom()
+			    .translate([0, 0])
+			    .scale(1)
+			    .scaleExtent([1, 8])
+			    .on("zoom", zoomed);
+	
 				austMap = d3.select("#aust-map").append("svg")
 					.attr("width", width)
 					.attr("height", height)
 					.attr("id", "slangMap");
 
+				var features = austMap.append("g");
+
+				features.append("path")
+					.datum(graticule)
+					.attr("class", "graticule")
+					.attr("d", path);		
+
 				mapKey = d3.select("#mapKey").append("svg")
 							.attr("width", "100px")
-							.attr("id", "slangKey");	
+							.attr("id", "slangKey");
+
+			
+				function zoomed() {
+					features.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+				}
+
+				var zoomMap = function zoomMap() {
+								if (mapState === 'normal') {
+									mapState = 'zoomed';
+									d3.select('#mapSwitcher').text("Zoom east coast");
+									features.transition()
+										.duration(1000)
+										.call(zoom.translate([(width*0.3),(height*0.3)]).scale(0.7).event);
+								}
+
+								else if (mapState === 'zoomed') {
+									mapState = 'normal';
+									d3.select('#mapSwitcher').text("Show WA & NT");
+									features.transition()
+										.duration(1000)
+										.call(zoom.translate([0,0]).scale(1).event);
+								}
+								
+
+							}					
 
 				d3.json("data/aus-states.geojson", function(error, mapData) {
 
-					austMap.selectAll(".state")
+					features.selectAll(".state")
 							.data(mapData.features)
 							.enter().append("path")
 								.attr("class", "state")
@@ -222,7 +270,7 @@
 
 							};		
 
-							austMap.selectAll(".circle")
+							features.selectAll(".circle")
 									.data(data)
 									.enter().append("svg:circle")
 										.attr("class",function(d){ return d['word'].replace(" ", "-") + " circle"})
@@ -233,6 +281,16 @@
 										.attr("title", function(d){ return d['location-name']})
 										.attr("data-count", function(d){ return d.count})
 										.attr("data-word", function(d){ return d['word']});
+
+
+
+							austMap.append("text")
+								    .attr("x", 5)
+								    .attr("y", height-50)
+								    .attr("class", "keyText")
+								    .attr("id", "mapSwitcher")
+								    .on("click", zoomMap) 
+								    .text("Show WA & NT");			
 
 
 							$(".circle").tooltip({
@@ -258,11 +316,11 @@
 			$(window).resize(function() {
 
 			getW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-			getH = getW/1.7;
+			getH = getW*0.581;
 			if (getW > 860) {
 
 			  getW = 860;
-			  getH = getW/1.7;
+			  getH = getW*0.581;
 
 			}
  
