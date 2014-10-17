@@ -100,10 +100,12 @@
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/d3.min.js"></script>
 	    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
-
+	    <script src="http://interactive.guim.co.uk/libs/iframe-messenger/iframeMessenger.js" type="text/javascript"></script>
 		
 		<script type="text/javascript">
-
+		
+		
+		iframeMessenger.enableAutoResize();
 			
 			
 			//Get window width
@@ -225,7 +227,7 @@
 
 							mapKey
 								.transition()
-								.attr("height", function() { return wordList.length*30 + 20 + "px"});
+								.attr("height", function() { return wordList.length*20 + "px"});
 									
 							wordList.forEach(function(d,i) {
 								//console.log(d);
@@ -249,7 +251,7 @@
 							});	
 
 							function filterCat() {
-								
+
 								var currElement = d3.select(this)
 								var catID = currElement.attr("data-category");
 								console.log(catID);
