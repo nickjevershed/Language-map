@@ -156,7 +156,8 @@
 				austMap = d3.select("#aust-map").append("svg")
 					.attr("width", width)
 					.attr("height", height)
-					.attr("id", "slangMap");
+					.attr("id", "slangMap")
+					.attr("overflow", "hidden");
 
 				var features = austMap.append("g");
 

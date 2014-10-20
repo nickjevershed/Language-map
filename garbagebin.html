@@ -102,10 +102,12 @@
 	    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 
 		
+ <script src="http://interactive.guim.co.uk/libs/iframe-messenger/iframeMessenger.js" type="text/javascript"></script>
+		
 		<script type="text/javascript">
-
-			
-			
+		
+		
+		iframeMessenger.enableAutoResize();
 			//Get window width
 
 			var getW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -154,7 +156,8 @@
 				austMap = d3.select("#aust-map").append("svg")
 					.attr("width", width)
 					.attr("height", height)
-					.attr("id", "slangMap");
+					.attr("id", "slangMap")
+					.attr("overflow", "hidden");
 
 				var features = austMap.append("g");
 
