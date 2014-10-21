@@ -116,11 +116,15 @@
 				getH = getW*0.581;
 			}
 
+			//Map drawing in a function so can be called when screen re-sized
+
 			function drawMap() {
 
 				var austMap,mapKey,graticule;
 				var mapState = 'normal';
 				var projection,path,graticule;
+
+				//Remove existing map and key
 
 				d3.select("#slangMap").remove();
 				d3.select("#slangKey").remove();
@@ -131,7 +135,9 @@
 				var maxRadius=14,radiusMultiplier;
 				var keyHeight=60;
 
-				var colours = ['#7fc97f','#beaed4','#fdc086','#386cb0','#f0027f'];
+				//list of colours to use for map points, from colorbrewer
+
+				var colours = ['#7fc97f','#beaed4','#fdc086','#386cb0','#f0027f','#a6cee3','#e31a1c','#6a3d9a','#fb9a99','#33a02c'];
 
 				projection = d3.geo.mercator()
 					.center([135,-25.0])
@@ -320,6 +326,9 @@
 
 			drawMap();
 			
+
+			//Exclude on resize event from iOS because of iOS bug. Otherwise, when window is resized get the new width and height and redraw the map
+
 			if( !/iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
 
 			$(window).resize(function() {
