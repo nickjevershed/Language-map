@@ -208,11 +208,13 @@
 
 						d3.csv("data/scallops-count.csv", function(error, data) {
 
-							maxData = 26;
+							maxData = d3.max(data, function(a){	return +a.count});
 							minData = d3.min(data, function(a){	return +a.count});
 							meanData = d3.mean(data, function(a){ return +a.count});
 
 							radiusMultiplier=maxRadius/Math.sqrt(maxData);	
+
+							//Building the key by finding the unique words in the data
 
 							var wordListTemp = d3.nest()
 										.key(function(d){ return d.word})
@@ -220,20 +222,17 @@
 
 							var wordList = [];			
 
-							console.log(wordList);
-
 							wordListTemp.forEach(function(d) {	
 								wordList.push(d.key);
 							});		
 
-							console.log(wordList);
+							//Resize the map key based on number of unique words 
 
 							mapKey
 								.transition()
 								.attr("height", function() { return wordList.length*20 + "px"});
 									
 							wordList.forEach(function(d,i) {
-								//console.log(d);
 								var keyBoxes = mapKey.append("g");
 
 								keyBoxes.append("circle")
@@ -252,6 +251,8 @@
 								    .text(d);
 
 							});	
+
+							//Function to filter map points by category
 
 							function filterCat() {
 
